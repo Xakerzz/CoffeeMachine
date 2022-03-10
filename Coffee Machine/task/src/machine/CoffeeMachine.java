@@ -168,6 +168,7 @@ public class CoffeeMachine {
         setCoffeeBeans(getCoffeeBeans() + scanner.nextInt());
         System.out.println("Write how many disposable cups of coffee you want to add:");
         setAmountCups(getAmountCups() + scanner.nextInt());
+        scanner.nextLine();
         System.out.println();
     }
 
